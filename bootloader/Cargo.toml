@@ -2,6 +2,7 @@
 name = "bootloader"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.94.1"
 
 [dependencies]
 uefi = "0.37.0"
