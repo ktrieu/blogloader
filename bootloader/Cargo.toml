@@ -1,0 +1,13 @@
+[package]
+name = "bootloader"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+uefi = "0.37.0"
+
+[[bin]]
+name= "your-crate-name"
+path = "src/main.rs"
+test = false
+bench = false
